@@ -6,20 +6,20 @@
 # It will display the name and contact information for a teacher.
 
 # display the full name
-print("Alec Heil")
-
+name = ("Alec Heil")
 # display the address
-print("742 Evergreen Terrace")
-
+adress = ("742 Evergreen Terrace")
 # display the city, state and zip
-print("Springfield, Illinois 62629")
-
+city = ("Springfield, Illinois 62629")
 # display the phone number
-print("867-5309")
-
+phone = ("867-5309")
 # display the course area
-print("CIS-121")
+course = ("CIS-121")
 
-
+print (name)
+print(adress)
+print(city)
+print(phone)
+print(course)
 
 
