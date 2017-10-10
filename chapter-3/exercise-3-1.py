@@ -11,6 +11,7 @@
 
 # Get the number for the day of the week.
 # be sure to format the input as an int
+<<<<<<< HEAD
 day_number = input("enter day of the week as a number (1-7): ")
 
 # Determine the value to assign to the day of the week.
@@ -31,6 +32,15 @@ elif day_number == 7:
     print("saturday")
 elif day_number > 7:
     print("error 420: number too high")
+=======
+
+
+# Determine the value to assign to the day of the week.
+# use a set of if ... elif ... etc. statements to test the day of the week value.
+
+
+
+>>>>>>> upstream/master
 
 
 
