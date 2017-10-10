@@ -9,20 +9,28 @@
 # be sure to initialize these as floats
 
 
-# Constant for the number of square feet in an acre.
 
+
+# Constant for the number of square feet in an acre.
+#def FEET_IN_ACRE_1():
+FEET_IN_ACRE = 43560
+FEET_IN_ACRE = float(FEET_IN_ACRE)
 
 # Get the square feet in the tract from the user.
 # you will need to convert this input to a float
 
+tract_feet = input("size of tract in square feet")
+tract_feet = float(tract_feet)
 
 # Calculate the number of acres.
 
+tract_acres = tract_feet / FEET_IN_ACRE
+tract_acres = float(tract_acres)
 
 # Print the number of acres.
 # remember to format the acres to two decimal places
 
-
+print(tract_acres)
 
 
 

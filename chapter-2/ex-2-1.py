@@ -8,19 +8,22 @@
 # display the full name
 name = ("Alec Heil")
 # display the address
-adress = ("742 Evergreen Terrace")
+street_number = ("742 Evergreen Terrace")
 # display the city, state and zip
-city = ("Springfield, Illinois 62629")
+city_state_zip = ("Springfield, Illinois 62629")
 # display the phone number
 phone = ("867-5309")
 # display the course area
 course = ("CIS-121")
 
-def print_adress():
+def print_address():
     print(name)
-    print(adress)
-    print(city)
+    print(street_number)
+    print(city_state_zip)
     print(phone)
     print(course)
 
-print_adress()
+print_address()
+
+
+
