@@ -7,7 +7,6 @@
 
 # Variables for month, day, year and message
 # initialize month, day and year as integers, message as a string
-<<<<<<< HEAD
 month = input("What is the month? (mm)" )
 day = input("What is the day? (dd)" )
 year = input("what is the year?(yy)" )
@@ -38,10 +37,10 @@ elif year < 0 and year > 99:
     print("invalid year")
     
 # else 
-# else:
+else:
     # set message to hold the date in 00/00/00 form
-    # date = ("day/month/year")
-    # print(date)
+    date = (day, "/", month, "/", "year")
+    print(date)
     
         # if day * month equals year, add " is a magic date" to message
 if day * month == year:
@@ -52,42 +51,4 @@ else:
 
 # print message for the user
 
-=======
-
-
-# Get month and cast it to int
-
-
-# Get day and cast it to int
-
-
-# Get year and cast it to int
-
-
-# This problem can be solved with if-else logic by the reducing the problem domain
-# if month input is out of range
-
-	# set message to hold "invalid month" message
-
-
-# else if day input is out of range
-
-    # set message to hold "invalid day" message
-
-# else if  year input is out of range (greater than 99 or less than 0)
-
-    # set message to hold "invalid year" message
-
-# else 
-
-    # set message to hold the date in 00/00/00 form
-    
-    # if day * month equals year, add " is a magic date" to message
-    
-    # else add " is not a magic date" to message
-
-
-# print message for the user
-
-
->>>>>>> upstream/master
+### USE COMMAS TO SEPARATE THE DATES AND SLASHES WHEN PRINTING ###
