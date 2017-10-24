@@ -30,7 +30,7 @@
 # and returns the result
 
     # Define a local variable for joules of kinetic energy
-
+    
 	# calculate the kinetic energy using the parameters and the conversion formula    
 
 	# return the result
@@ -38,6 +38,6 @@
 
 
 # Call the main function to start the program
-main()
+
 
 
