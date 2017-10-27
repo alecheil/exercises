@@ -7,23 +7,27 @@
 
 
 # Global constants for fat calories per gram and carb calories per gram
-
+FAT_CAL = 0.0
+CARB_CAL = 0.0
 
 
 # define the main function
-
+def main():
     # Define local float variables for grams of fat, grams of carbs, calories from fat,
     # and calories from carbs
-    
+    fat_grams = float()
+    carb_grams = float()
+    fat_cal = float()
+    carb_cal = flaot()
 
     # Get grams of fat from the user.
-
+    fat_grams = input("enter grams of fat per gram")
 
     # Get grams of carbs from the user.
-
+    carb_grams = input("enter grams of carbs per gram")
 
     # Calculate calories from fat.
-
+    fat_cal = 
 
     # Calculate calories from carbs.
 
